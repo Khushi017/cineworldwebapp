@@ -35,7 +35,7 @@ const Cards = () => {
                 key={i}
                 className="card font-medium shadow-lg p-1 hover:-translate-y-3 cursor-pointer mt-6 transition-all duration-500"
               >
-                <img className="flex flex-row m-1 h-52 md:h-72 w-40 md:w-56 items-center justify-center"  src={e.image} />
+                <img className="flex flex-row m-1 h-56 md:h-72 w-40 md:w-56 items-center justify-center"  src={e.image} />
                 <h1>
                   {e.title}
                 </h1>
